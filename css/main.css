@@ -1,7 +1,62 @@
 html {
   box-sizing: border-box;
+  background-color: #f0eee8;
+  color: #785439;
+  line-height: 1.5;
+  font: normal 100%/1.5 georgia;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+.link-card {
+  background-color: #dcd4cd;
+  border: 3px solid #9a816d;
+  border-radius: 3px;
+
+}
+
+h1 {
+  display: inline-inline-block;
+  font-family: 'Dosis', sans-serif;
+  color: #785439;
+  font-weight: bold;
+  padding: .5em .5em 0em;
+  margin: 0;
+}
+
+p {
+  display: inline-block;
+  margin: 0 0 1rem;
+  padding: .5em .5em 0em;
+}
+
+hr {
+  border: 2px solid #9a816d;
+  margin: 0;
+}
+
+a {
+  display: inline-block;
+  background-color: #785439;
+  border: 3px solid #785439;
+  border-radius: 8px;
+  font-family: 'Dosis', sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.125rem;
+  padding: .4em;
+}
+
+div {
+  padding: 1rem;
+  text-align: center;
+
+
+}
+
+.link-card:hover {
+  background-color: #cabdb2;
 }
