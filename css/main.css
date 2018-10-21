@@ -17,11 +17,7 @@ html {
   display: inline-block;
   text-decoration: none;
   color: inherit;
-  padding: 1rem;
-}
-
-body {
-  background-color: #dcd4cd;
+  padding: .75em;
 }
 
 .link-card h2 {
@@ -31,9 +27,13 @@ body {
   margin: 0 0 1rem;
 }
 
+body {
+  margin: 0;
+}
+
 main {
   font-size: 1rem;
-  padding: 1rem;
+  padding: .5em;
   padding-bottom: 0;
   color: #512200;
   display: block;
@@ -54,8 +54,9 @@ main {
 
 div {
   text-align: center;
-  margin: 0 0 1rem;
+  margin: 0;
   padding-top: 1rem;
+  padding-bottom: .4em;
 }
 
 dl {
