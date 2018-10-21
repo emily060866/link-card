@@ -17,12 +17,11 @@ html {
   display: inline-block;
   text-decoration: none;
   color: inherit;
+  padding: 1rem;
 }
 
 body {
   background-color: #dcd4cd;
-  border: 3px solid #9a816d;
-  border-radius: 8px;
 }
 
 .link-card h2 {
